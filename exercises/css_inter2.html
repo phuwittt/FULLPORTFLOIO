@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS INTERMEDIATE 2</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <h1>CSS INTERMEDIATE 2</h1>
+      <p>
+        สร้างตารางการ์ดที่ตอบสนอง (Responsive Card Grid)
+        พร้อมเอฟเฟกต์เมื่อวางเมาส์
+      </p>
+    </header>
+
+    <!-- Content -->
+    <section class="container">
+      <!-- Description -->
+      <div class="card">
+        <h2>รายละเอียดงาน</h2>
+        <p>
+          โจทย์นี้จะให้คุณสร้างหน้าเว็บที่มีชุดการ์ดสินค้าหรือบริการ
+          จัดเรียงในรูปแบบตาราง (Grid) ที่สามารถปรับขนาดได้ตามหน้าจอ
+          (Responsive) การ์ดแต่ละใบควรมีรูปภาพ, ชื่อ, และคำอธิบายสั้นๆ นอกจากนี้
+          เมื่อผู้ใช้วางเมาส์เหนือการ์ดแต่ละใบ
+          ควรมีเอฟเฟกต์การเปลี่ยนภาพที่น่าสนใจและราบรื่น
+        </p>
+      </div>
+
+      <!-- Requirement -->
+      <div class="card">
+        <h2>สิ่งที่โจทย์ต้องการ</h2>
+        <ul>
+          <li>
+            ใช้ CSS Grid ในการจัดเรียงการ์ดภายใน `.container` ให้เป็นตาราง
+          </li>
+          <li>การ์ดต้องตอบสนองต่อขนาดหน้าจอโดยใช้ Media Queries:</li>
+          <li>แสดง 1 คอลัมน์บนหน้าจอขนาดเล็ก (เช่น `max-width: 600px`)</li>
+          <li>
+            แสดง 2 คอลัมน์บนหน้าจอขนาดกลาง (เช่น `min-width: 601px` และ
+            `max-width: 900px`)
+          </li>
+          <li>แสดง 3 คอลัมน์บนหน้าจอขนาดใหญ่ (เช่น `min-width: 901px`)</li>
+          <li>
+            เพิ่มเอฟเฟกต์เมื่อวางเมาส์ (hover effect) บน `.card` เช่น
+            การ์ดขยายเล็กน้อย (`transform: scale(1.03);`) และ/หรือมีเงาเพิ่มขึ้น
+            (`box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);`)
+          </li>
+          <li>
+            ตรวจสอบให้แน่ใจว่าเอฟเฟกต์การวางเมาส์เป็นไปอย่างราบรื่นโดยใช้ CSS
+            Transitions
+          </li>
+        </ul>
+      </div>
+
+      <!-- Result -->
+      <div class="card result">
+        <h2>ผลลัพธ์</h2>
+        <a href="https://github.com/phuwittt/CSS-inter.git" target="_blank">
+          Source Code
+        </a>
+        <a href="https://phuwittt.github.io/CSS-inter/" target="_blank">
+          View Result
+        </a>
+      </div>
+    </section>
+  </body>
+</html>

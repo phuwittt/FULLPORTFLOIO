@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+body {
+  background-color: #1f1f1f;
+  color: #ffffff;
+}
+
+/* Header */
+.header {
+  background-color: #ffffff;
+  color: #000;
+  padding: 40px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 42px;
+}
+
+.header p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+/* Card */
+.card {
+  background-color: #2b2b2b;
+  padding: 30px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.card h2 {
+  margin-bottom: 15px;
+  color: #00c3ff;
+}
+
+.card p {
+  line-height: 1.6;
+}
+
+.card ul {
+  padding-left: 20px;
+}
+
+.card ul li {
+  margin-bottom: 10px;
+}
+
+/* Result Section */
+.result a {
+  display: inline-block;
+  margin-right: 15px;
+  margin-top: 10px;
+  padding: 12px 25px;
+  background-color: #00c3ff;
+  color: #000;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.result a:hover {
+  background-color: #00a5d6;
+}

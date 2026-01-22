@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Advanced</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <h1>HTML Advanced</h1>
+      <p>สร้างหน้าแสดงสินค้าอีคอมเมิร์ซที่ซับซ้อนและเข้าถึงได้</p>
+    </header>
+
+    <!-- Content -->
+    <section class="container">
+      <!-- Description -->
+      <div class="card">
+        <h2>รายละเอียดงาน</h2>
+        <p>
+          ผู้ใช้จะต้องสร้างโครงสร้าง HTML
+          สำหรับหน้าแสดงสินค้าอีคอมเมิร์ซที่ประกอบด้วยรายละเอียดสินค้าหลายชิ้น
+          โดยแต่ละชิ้นจะต้องมีข้อมูลครบถ้วน เช่น รูปภาพ ชื่อ ราคา คำอธิบายสั้นๆ
+          ปุ่มเพิ่มลงตะกร้า และรีวิวสินค้า โครงสร้าง HTML
+          ต้องมีความหมายทางความหมาย (semantic) ถูกต้องตามมาตรฐาน HTML5
+          รองรับการเข้าถึงสำหรับผู้พิการ (accessibility)
+          และมีการใส่ข้อมูลเชิงโครงสร้าง (structured data) สำหรับ SEO
+          โดยไม่ต้องใช้ CSS หรือ JavaScript ในการออกแบบหรือการทำงาน
+        </p>
+      </div>
+
+      <!-- Requirement -->
+      <div class="card">
+        <h2>สิ่งที่โจทย์ต้องการ</h2>
+        <ul>
+          <li>
+            สร้างโครงสร้าง HTML5 ที่มีความหมาย (semantic HTML5)
+            สำหรับหน้าเว็บทั้งหมด
+          </li>
+          <li>
+            แต่ละสินค้าจะต้องถูกแสดงเป็น article หรือ section ที่เหมาะสม
+            และมีข้อมูลดังนี้: รูปภาพสินค้าพร้อม alt text ที่เหมาะสม,
+            ชื่อสินค้า, ราคา, คำอธิบายสั้นๆ, ปุ่ม 'เพิ่มลงตะกร้า', คะแนนรีวิว
+            (เช่น 5 ดาว) และจำนวนรีวิว
+          </li>
+          <li>ใช้ figure และ figcaption สำหรับรูปภาพสินค้าเมื่อเหมาะสม</li>
+          <li>
+            ใช้คุณสมบัติ ARIA (Accessible Rich Internet Applications)
+            เพื่อปรับปรุงการเข้าถึงสำหรับผู้พิการ เช่น aria-label, role
+            เมื่อจำเป็นสำหรับองค์ประกอบที่ไม่ใช่ semantic โดยธรรมชาติ
+          </li>
+          <li>
+            รวมข้อมูลเชิงโครงสร้าง (Structured Data) โดยใช้ Schema.org (เช่น
+            itemscope, itemtype="http://schema.org/Product", itemprop)
+            เพื่ออธิบายสินค้าแต่ละชิ้น
+          </li>
+          <li>
+            สร้างส่วนนำทาง (navigation) และส่วนท้าย (footer)
+            ที่มีความหมายและเข้าถึงได้
+          </li>
+          <li>
+            มีส่วนสำหรับตัวกรองสินค้า (filter) หรือแถบด้านข้าง (sidebar)
+            ที่มีความหมายทางความหมายและเข้าถึงได้
+          </li>
+          <li>ไม่ใช้ inline CSS หรือ JavaScript</li>
+        </ul>
+      </div>
+
+      <!-- Result -->
+      <div class="card result">
+        <h2>ผลลัพธ์</h2>
+        <a href="https://github.com/phuwittt/html-avd1.git" target="_blank">
+          Source Code
+        </a>
+        <a href="https://phuwittt.github.io/html-avd1/" target="_blank">
+          View Result
+        </a>
+      </div>
+    </section>
+  </body>
+</html>

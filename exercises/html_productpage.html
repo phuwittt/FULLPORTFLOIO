@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Product Page Challenge</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <h1>HTML Product Page Challenge</h1>
+      <p>หน้าแสดงรายละเอียดสินค้า</p> 
+    </header>
+
+    <!-- Content -->
+    <section class="container">
+      <!-- Description -->
+      <div class="card">
+        <h2>รายละเอียดงาน</h2>
+        <p>
+          สร้างหน้าเว็บ HTML สำหรับแสดงรายละเอียดของสินค้า โดยใช้โครงสร้าง HTML
+          เชิงความหมาย (semantic HTML) ที่เหมาะสม
+          เพื่อให้เข้าถึงได้ง่ายและมีโครงสร้างที่ดีสำหรับ SEO
+          และการประมวลผลด้วยเครื่องมือต่างๆ หน้าเว็บควรประกอบด้วยข้อมูลสินค้า
+          รูปภาพ แผนภูมิราคา และส่วนแสดงความคิดเห็น/รีวิวสินค้า
+        </p>
+      </div>
+
+      <!-- Requirement -->
+      <div class="card">
+        <h2>สิ่งที่โจทย์ต้องการ</h2>
+        <ul>
+          <li>
+            ใช้แท็ก header, nav, main, section, article, aside, footer
+            ให้เหมาะสมกับโครงสร้างของหน้า
+          </li>
+          <li>
+            แสดงชื่อสินค้าและคำอธิบายโดยใช้แท็กหัวข้อ (h1, h2) และย่อหน้า (p)
+          </li>
+          <li>
+            มีส่วนแสดงรูปภาพสินค้าหลักอย่างน้อย 1 รูป และรูปภาพขนาดย่อ
+            (thumbnail) อย่างน้อย 3 รูป โดยใช้แท็ก img และมี alt attribute
+            ที่เหมาะสม
+          </li>
+          <li>
+            แสดงข้อมูลราคา (ราคาปัจจุบัน, ราคาลด) โดยใช้แท็กที่เหมาะสม เช่น span
+            หรือ del สำหรับราคาเก่า
+          </li>
+          <li>
+            สร้างตาราง HTML (table) เพื่อแสดงคุณสมบัติสินค้า (เช่น ขนาด, สี,
+            วัสดุ) โดยมี thead, tbody และอย่างน้อย 3 แถวข้อมูล
+          </li>
+          <li>
+            มีฟอร์มสำหรับเขียนรีวิวสินค้า (form) ซึ่งประกอบด้วย:
+            ช่องใส่ชื่อผู้รีวิว (input type="text"), ช่องให้คะแนนสินค้า (เช่น
+            select หรือ input type="range"), ช่องสำหรับข้อความรีวิว (textarea),
+            ปุ่มส่งรีวิว (input type="submit"), ใช้ label คู่กับ input และ
+            textarea, ใช้ fieldset และ legend สำหรับจัดกลุ่มฟอร์ม
+          </li>
+          <li>
+            มีส่วนแสดงความคิดเห็น/รีวิวที่มีอยู่แล้วอย่างน้อย 2 รายการ
+            โดยแต่ละรีวิวควรใช้แท็ก article ภายใน section และแสดงชื่อผู้รีวิว
+            วันที่ และข้อความรีวิว
+          </li>
+          <li>
+            มีส่วน "สินค้าที่เกี่ยวข้อง" (aside) ที่แสดงลิงก์ไปยังสินค้าอื่น ๆ
+            อย่างน้อย 3 รายการ โดยใช้ ul และ li
+          </li>
+        </ul>
+      </div>
+
+      <!-- Result -->
+      <div class="card result">
+        <h2>ผลลัพธ์</h2>
+        <a href="https://github.com/phuwittt/HTML-Intermediate2.git" target="_blank">
+          Source Code
+        </a>
+        <a href="https://phuwittt.github.io/HTML-Intermediate2/" target="_blank">
+          View Result
+        </a>
+      </div>
+    </section>
+  </body>
+</html>

@@ -238,12 +238,6 @@ section {
     }
 }
 
-    .skill_box {
-        width: 80%;
-        text-align: center;
-        margin-right: 0;
-    }
-
 @media (max-width: 600px) {
     .exercise {
         grid-template-columns: 1fr;
@@ -253,3 +247,16 @@ section {
         padding: 0 10px;
     }
 }    
+
+@media (max-width: 768px) {
+    .skill-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill_box {
+        width: 80%;
+        text-align: center;
+        margin-right: 0;
+    }
+}
